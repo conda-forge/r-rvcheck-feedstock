@@ -21,9 +21,10 @@ build:
 requirements:
   build:
     - r-base
-
+    - r-rlang
   run:
     - r-base
+    - r-rlang
 
 test:
   commands:
