@@ -1,4 +1,4 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.5" %}
 
 package:
   name: r-rvcheck
@@ -9,11 +9,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/rvcheck_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rvcheck/rvcheck_{{ version }}.tar.gz
-  sha256: 0b59986c1ccc5b89f8aca8fa7cf62d0b875719addb40e08dbda1791cfd334fc4
+  sha256: 4edd921c2261e5a05c191cdffa23366965e852ba06205c9aaa00d3a707164294
 
 build:
   noarch: generic
-  number: 1001
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
