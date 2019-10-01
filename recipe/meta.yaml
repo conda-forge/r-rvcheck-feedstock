@@ -22,9 +22,11 @@ requirements:
   build:
     - r-base
     - r-rlang
+    - r-biocmanager
   run:
     - r-base
     - r-rlang
+    - r-biocmanager
 
 test:
   commands:
@@ -40,8 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - bgruening
-    - daler
-    - johanneskoester
     - rvalieris
