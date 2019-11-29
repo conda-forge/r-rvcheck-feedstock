@@ -1,4 +1,4 @@
-{% set version = '0.1.6' %}
+{% set version = "0.1.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rvcheck_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rvcheck/rvcheck_{{ version }}.tar.gz
-  sha256: 2a96824d049f825ac9e7a605e5a9f3aef659924538e9700e501ab37e55c7c386
+  sha256: 5ca1116ddd9f29c6ceb463a2b72ed2dc1e7b5c540005e5ae8a38074be2a77da8
 
 build:
   merge_build_host: True  # [win]
