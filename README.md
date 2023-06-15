@@ -1,11 +1,11 @@
-About r-rvcheck
-===============
+About r-rvcheck-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rvcheck-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=rvcheck
 
 Package license: Artistic-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rvcheck-feedstock/blob/main/LICENSE.txt)
 
 Summary: Check latest release version of R and R package (both in 'CRAN', 'Bioconductor' or 'Github').
 
